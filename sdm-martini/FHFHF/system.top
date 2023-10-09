@@ -1,0 +1,10 @@
+#include "martini3_MLO.itp" 
+#include "FHFHF.itp"
+#ifdef POSRES 
+#include "posre.itp" 
+#endif 
+[ system ] 
+FHFHF in water
+[ molecules ] 
+FHFHF 20
+W                7413
