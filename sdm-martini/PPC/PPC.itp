@@ -1,0 +1,548 @@
+; /home/master/.local/bin/polyply gen_itp -lib martini3 -name PPC -seq PHE:1 HIS:1 PHE:1 HIS:1 PHE:1 LNK:1 PEO:68 LNK:1 PHE:1 HIS:1 PHE:1 HIS:1 PHE:1
+
+; Please cite the following papers:
+; Souza, P C T; Alessandri, R; Barnoud, J; Thallmair, S; Faustino, I; Grünewald, F; Patmanidis, I; Abdizadeh, H; Bruininks, B M H; Wassenaar, T A; Kroon, P C; Melcr, J; Nieto, V; Corradi, V; Khan, H M; Domański, J; Javanainen, M; Martinez-Seara, H; Reuter, N; Best, R B; Vattulainen, I; Monticelli, L; Periole, X; Tieleman, D P; de Vries, A H; Marrink, S J;  Nature Methods 2021; 10.1038/s41592-021-01098-3
+; Grunewald, F; Alessandri, R; Kroon, P C; Monticelli, L; Souza, P C; Marrink, S J;  Nature Communications 2022; 10.1038/s41467-021-27627-4
+
+[ moleculetype ]
+PPC 1
+
+[ atoms ]
+  1 P2    1 PHE BB    1 0.0     
+  2 SC4   1 PHE SC1   2 0.0     
+  3 TC5   1 PHE SC2   3 0.0     
+  4 TC5   1 PHE SC3   4 0.0     
+  5 P2    2 HIS BB    5 0.0     
+  6 TC4   2 HIS SC1   6 0.0     
+  7 TN6d  2 HIS SC2   7 0.0     
+  8 TN5a  2 HIS SC3   8 0.0     
+  9 P2    3 PHE BB    9 0.0     
+ 10 SC4   3 PHE SC1  10 0.0     
+ 11 TC5   3 PHE SC2  11 0.0     
+ 12 TC5   3 PHE SC3  12 0.0     
+ 13 P2    4 HIS BB   13 0.0     
+ 14 TC4   4 HIS SC1  14 0.0     
+ 15 TN6d  4 HIS SC2  15 0.0     
+ 16 TN5a  4 HIS SC3  16 0.0     
+ 17 P2    5 PHE BB   17 0.0    
+ 18 SC4   5 PHE SC1  18 0.0     
+ 19 TC5   5 PHE SC2  19 0.0     
+ 20 TC5   5 PHE SC3  20 0.0     
+ 21 P2    6 LNK BB   21 0.0     
+ 22 SC1   6 LNK BB1  22 0.0     
+ 23 SC1   6 LNK BB2  23 0.0     
+ 24 P2    6 LNK BB3  24 0.0     
+ 25 SN1a    7 PEO EC   25 0.0
+ 26 SN1a    8 PEO EC   26 0.0
+ 27 SN1a    9 PEO EC   27 0.0
+ 28 SN1a   10 PEO EC   28 0.0
+ 29 SN1a   11 PEO EC   29 0.0
+ 30 SN1a   12 PEO EC   30 0.0
+ 31 SN1a   13 PEO EC   31 0.0
+ 32 SN1a   14 PEO EC   32 0.0
+ 33 SN1a   15 PEO EC   33 0.0
+ 34 SN1a   16 PEO EC   34 0.0
+ 35 SN1a   17 PEO EC   35 0.0
+ 36 SN1a   18 PEO EC   36 0.0
+ 37 SN1a   19 PEO EC   37 0.0
+ 38 SN1a   20 PEO EC   38 0.0
+ 39 SN1a   21 PEO EC   39 0.0
+ 40 SN1a   22 PEO EC   40 0.0
+ 41 SN1a   23 PEO EC   41 0.0
+ 42 SN1a   24 PEO EC   42 0.0
+ 43 SN1a   25 PEO EC   43 0.0
+ 44 SN1a   26 PEO EC   44 0.0
+ 45 SN1a   27 PEO EC   45 0.0
+ 46 SN1a   28 PEO EC   46 0.0
+ 47 SN1a   29 PEO EC   47 0.0
+ 48 SN1a   30 PEO EC   48 0.0
+ 49 SN1a   31 PEO EC   49 0.0
+ 50 SN1a   32 PEO EC   50 0.0
+ 51 SN1a   33 PEO EC   51 0.0
+ 52 SN1a   34 PEO EC   52 0.0
+ 53 SN1a   35 PEO EC   53 0.0
+ 54 SN1a   36 PEO EC   54 0.0
+ 55 SN1a   37 PEO EC   55 0.0
+ 56 SN1a   38 PEO EC   56 0.0
+ 57 SN1a   39 PEO EC   57 0.0
+ 58 SN1a   40 PEO EC   58 0.0
+ 59 SN1a   41 PEO EC   59 0.0
+ 60 SN1a   42 PEO EC   60 0.0
+ 61 SN1a   43 PEO EC   61 0.0
+ 62 SN1a   44 PEO EC   62 0.0
+ 63 SN1a   45 PEO EC   63 0.0
+ 64 SN1a   46 PEO EC   64 0.0
+ 65 SN1a   47 PEO EC   65 0.0
+ 66 SN1a   48 PEO EC   66 0.0
+ 67 SN1a   49 PEO EC   67 0.0
+ 68 SN1a   50 PEO EC   68 0.0
+ 69 SN1a   51 PEO EC   69 0.0
+ 70 SN1a   52 PEO EC   70 0.0
+ 71 SN1a   53 PEO EC   71 0.0
+ 72 SN1a   54 PEO EC   72 0.0
+ 73 SN1a   55 PEO EC   73 0.0
+ 74 SN1a   56 PEO EC   74 0.0
+ 75 SN1a   57 PEO EC   75 0.0
+ 76 SN1a   58 PEO EC   76 0.0
+ 77 SN1a   59 PEO EC   77 0.0
+ 78 SN1a   60 PEO EC   78 0.0
+ 79 SN1a   61 PEO EC   79 0.0
+ 80 SN1a   62 PEO EC   80 0.0
+ 81 SN1a   63 PEO EC   81 0.0
+ 82 SN1a   64 PEO EC   82 0.0
+ 83 SN1a   65 PEO EC   83 0.0
+ 84 SN1a   66 PEO EC   84 0.0
+ 85 SN1a   67 PEO EC   85 0.0
+ 86 SN1a   68 PEO EC   86 0.0
+ 87 SN1a   69 PEO EC   87 0.0
+ 88 SN1a   70 PEO EC   88 0.0
+ 89 SN1a   71 PEO EC   89 0.0
+ 90 SN1a   72 PEO EC   90 0.0
+ 91 SN1a   73 PEO EC   91 0.0
+ 92 SN1a   74 PEO EC   92 0.0
+ 93 SN1a   75 LNK BB   93 0.0
+ 94 SC1  75 LNK BB1  94 0.0     
+ 95 SC1  75 LNK BB2  95 0.0     
+ 96 P2   75 LNK BB3  96 0.0     
+ 97 P2   76 PHE BB   97 0.0     
+ 98 SC4  76 PHE SC1  98 0.0     
+ 99 TC5  76 PHE SC2  99 0.0     
+100 TC5  76 PHE SC3 100 0.0     
+101 P2   77 HIS BB  101 0.0     
+102 TC4  77 HIS SC1 102 0.0     
+103 TN6d 77 HIS SC2 103 0.0     
+104 TN5a 77 HIS SC3 104 0.0     
+105 P2   78 PHE BB  105 0.0     
+106 SC4  78 PHE SC1 106 0.0     
+107 TC5  78 PHE SC2 107 0.0     
+108 TC5  78 PHE SC3 108 0.0     
+109 P2   79 HIS BB  109 0.0     
+110 TC4  79 HIS SC1 110 0.0     
+111 TN6d 79 HIS SC2 111 0.0     
+112 TN5a 79 HIS SC3 112 0.0     
+113 P2   80 PHE BB  113 0.0     
+114 SC4  80 PHE SC1 114 0.0     
+115 TC5  80 PHE SC2 115 0.0     
+116 TC5  80 PHE SC3 116 0.0
+117 DM    1 PHE D+  1  1.0
+118 DM    1 PHE D-  1  -1.0
+119 DM    5 PHE D-  1  -1.0
+120 DM    5 PHE D+  1  1.0
+121 DM    3 PHE D+  1  1.0
+122 DM    3 PHE D-  1  -1.0
+123 DM    2 HIS D-  1  -1.0
+124 DM    2 HIS D+  1  1.0
+125 DM    4 HIS D+  1  1.0
+126 DM    4 HIS D-  1  -1.0
+127 DM   76 PHE D+  1  1.0
+128 DM   76 PHE D-  1  -1.0
+129 DM   80 PHE D-  1  -1.0
+130 DM   80 PHE D+  1  1.0
+131 DM   78 PHE D+  1  1.0
+132 DM   78 PHE D-  1  -1.0
+133 DM   77 HIS D-  1  -1.0
+134 DM   77 HIS D+  1  1.0
+135 DM   79 HIS D+  1  1.0
+136 DM   79 HIS D-  1  -1.0      
+
+[ bonds ]
+;
+; Dipole Bonds
+;
+1  117   1 0.14 50000
+1  118   1 0.14 50000
+17 119   1 0.14 50000
+17 120   1 0.14 50000
+9  121   1 0.14 50000
+9  122   1 0.14 50000
+5  123   1 0.14 50000
+5  124   1 0.14 50000
+13 125   1 0.14 50000
+13 126   1 0.14 50000
+97 127   1 0.14 50000
+97 128   1 0.14 50000
+113 129  1 0.14 50000
+113 130  1 0.14 50000
+105 131  1 0.14 50000
+105 132  1 0.14 50000
+101 133  1 0.14 50000
+101 134  1 0.14 50000
+109 135  1 0.14 50000
+109 136  1 0.14 50000
+;
+;
+ 21  22 1 0.36 7000
+ 22  23 1 0.36 7000
+ 23  24 1 0.36 7000
+ 93  94 1 0.36 7000
+ 94  95 1 0.36 7000
+ 95  96 1 0.36 7000
+ 25  26 1 0.36 7000 ; central-bond
+ 26  27 1 0.36 7000 ; central-bond
+ 27  28 1 0.36 7000 ; central-bond
+ 28  29 1 0.36 7000 ; central-bond
+ 29  30 1 0.36 7000 ; central-bond
+ 30  31 1 0.36 7000 ; central-bond
+ 31  32 1 0.36 7000 ; central-bond
+ 32  33 1 0.36 7000 ; central-bond
+ 33  34 1 0.36 7000 ; central-bond
+ 34  35 1 0.36 7000 ; central-bond
+ 35  36 1 0.36 7000 ; central-bond
+ 36  37 1 0.36 7000 ; central-bond
+ 37  38 1 0.36 7000 ; central-bond
+ 38  39 1 0.36 7000 ; central-bond
+ 39  40 1 0.36 7000 ; central-bond
+ 40  41 1 0.36 7000 ; central-bond
+ 41  42 1 0.36 7000 ; central-bond
+ 42  43 1 0.36 7000 ; central-bond
+ 43  44 1 0.36 7000 ; central-bond
+ 44  45 1 0.36 7000 ; central-bond
+ 45  46 1 0.36 7000 ; central-bond
+ 46  47 1 0.36 7000 ; central-bond
+ 47  48 1 0.36 7000 ; central-bond
+ 48  49 1 0.36 7000 ; central-bond
+ 49  50 1 0.36 7000 ; central-bond
+ 50  51 1 0.36 7000 ; central-bond
+ 51  52 1 0.36 7000 ; central-bond
+ 52  53 1 0.36 7000 ; central-bond
+ 53  54 1 0.36 7000 ; central-bond
+ 54  55 1 0.36 7000 ; central-bond
+ 55  56 1 0.36 7000 ; central-bond
+ 56  57 1 0.36 7000 ; central-bond
+ 57  58 1 0.36 7000 ; central-bond
+ 58  59 1 0.36 7000 ; central-bond
+ 59  60 1 0.36 7000 ; central-bond
+ 60  61 1 0.36 7000 ; central-bond
+ 61  62 1 0.36 7000 ; central-bond
+ 62  63 1 0.36 7000 ; central-bond
+ 63  64 1 0.36 7000 ; central-bond
+ 64  65 1 0.36 7000 ; central-bond
+ 65  66 1 0.36 7000 ; central-bond
+ 66  67 1 0.36 7000 ; central-bond
+ 67  68 1 0.36 7000 ; central-bond
+ 68  69 1 0.36 7000 ; central-bond
+ 69  70 1 0.36 7000 ; central-bond
+ 70  71 1 0.36 7000 ; central-bond
+ 71  72 1 0.36 7000 ; central-bond
+ 72  73 1 0.36 7000 ; central-bond
+ 73  74 1 0.36 7000 ; central-bond
+ 74  75 1 0.36 7000 ; central-bond
+ 75  76 1 0.36 7000 ; central-bond
+ 76  77 1 0.36 7000 ; central-bond
+ 77  78 1 0.36 7000 ; central-bond
+ 78  79 1 0.36 7000 ; central-bond
+ 79  80 1 0.36 7000 ; central-bond
+ 80  81 1 0.36 7000 ; central-bond
+ 81  82 1 0.36 7000 ; central-bond
+ 82  83 1 0.36 7000 ; central-bond
+ 83  84 1 0.36 7000 ; central-bond
+ 84  85 1 0.36 7000 ; central-bond
+ 85  86 1 0.36 7000 ; central-bond
+ 86  87 1 0.36 7000 ; central-bond
+ 87  88 1 0.36 7000 ; central-bond
+ 88  89 1 0.36 7000 ; central-bond
+ 89  90 1 0.36 7000 ; central-bond
+ 90  91 1 0.36 7000 ; central-bond
+ 91  92 1 0.36 7000 ; central-bond
+
+; Backbone bonds
+  1   5 1 0.350 4000
+  5   9 1 0.350 4000
+  9  13 1 0.350 4000
+ 13  17 1 0.350 4000
+ 97 101 1 0.350 4000
+101 105 1 0.350 4000
+105 109 1 0.350 4000
+109 113 1 0.350 4000
+
+; LNK-PEO
+ 24  25 1 0.35 4000
+
+; LNK-PHE
+ 96  97 1 0.35 4000
+
+; PEO-LNK
+ 92  93 1 0.35 4000
+
+; PHE-LNK
+ 17  21 1 0.35 4000
+ 93  97 1 0.35 4000
+
+; Side chain bonds
+  1   2 1 0.325 7500
+  5   6 1 0.336 7500
+  9  10 1 0.325 7500
+ 13  14 1 0.336 7500
+ 17  18 1 0.325 7500
+ 97  98 1 0.325 7500
+101 102 1 0.336 7500
+105 106 1 0.325 7500
+109 110 1 0.336 7500
+113 114 1 0.325 7500
+
+; Side chain bonds
+  2   3 1 0.340 1000000
+  2   4 1 0.340 1000000
+  3   4 1 0.290 1000000
+  6   7 1 0.320 1000000
+  6   8 1 0.300 1000000
+  7   8 1 0.270 1000000
+ 10  11 1 0.340 1000000
+ 10  12 1 0.340 1000000
+ 11  12 1 0.290 1000000
+ 14  15 1 0.320 1000000
+ 14  16 1 0.300 1000000
+ 15  16 1 0.270 1000000
+ 18  19 1 0.340 1000000
+ 18  20 1 0.340 1000000
+ 19  20 1 0.290 1000000
+ 98  99 1 0.340 1000000
+ 98 100 1 0.340 1000000
+ 99 100 1 0.290 1000000
+102 103 1 0.320 1000000
+102 104 1 0.300 1000000
+103 104 1 0.270 1000000
+106 107 1 0.340 1000000
+106 108 1 0.340 1000000
+107 108 1 0.290 1000000
+110 111 1 0.320 1000000
+110 112 1 0.300 1000000
+111 112 1 0.270 1000000
+114 115 1 0.340 1000000
+114 116 1 0.340 1000000
+115 116 1 0.290 1000000
+
+
+[ constraints ]
+#ifdef FIXED
+
+; Side chain bonds
+  2   3 1 0.340
+  2   4 1 0.340
+  3   4 1 0.290
+  6   7 1 0.320
+  6   8 1 0.300
+  7   8 1 0.270
+ 10  11 1 0.340
+ 10  12 1 0.340
+ 11  12 1 0.290
+ 14  15 1 0.320
+ 14  16 1 0.300
+ 15  16 1 0.270
+ 18  19 1 0.340
+ 18  20 1 0.340
+ 19  20 1 0.290
+ 98  99 1 0.340
+ 98 100 1 0.340
+ 99 100 1 0.290
+102 103 1 0.320
+102 104 1 0.300
+103 104 1 0.270
+106 107 1 0.340
+106 108 1 0.340
+107 108 1 0.290
+110 111 1 0.320
+110 112 1 0.300
+111 112 1 0.270
+114 115 1 0.340
+114 116 1 0.340
+115 116 1 0.290
+1  117   1 0.14
+1  118   1 0.14
+17 119   1 0.14
+17 120   1 0.14
+9  121   1 0.14
+9  122   1 0.14
+5  123   1 0.14
+5  124   1 0.14
+13 125   1 0.14
+13 126   1 0.14
+97 127   1 0.14
+97 128   1 0.14
+113 129  1 0.14
+113 130  1 0.14
+105 131  1 0.14
+105 132  1 0.14
+101 133  1 0.14
+101 134  1 0.14
+109 135  1 0.14
+109 136  1 0.14
+#endif
+[ angles ]
+;
+;
+;Dipole Angles
+;
+ 117   1 118 2     180.0     4.2
+ 119  17 120 2     180.0     4.2
+ 121   9 122 2     180.0     4.2
+ 123   5 124 2     180.0     4.2
+ 125  13 126 2     180.0     4.2
+ 127  97 128 2     180.0     4.2
+ 129 113 130 2     180.0     4.2
+ 131 105 132 2     180.0     4.2
+ 133 101 134 2     180.0     4.2
+ 135 109 136 2     180.0     4.2
+;
+;
+ 25  26  27 2 123.00 80 ; central-angle
+ 26  27  28 2 123.00 80 ; central-angle
+ 27  28  29 2 123.00 80 ; central-angle
+ 28  29  30 2 123.00 80 ; central-angle
+ 29  30  31 2 123.00 80 ; central-angle
+ 30  31  32 2 123.00 80 ; central-angle
+ 31  32  33 2 123.00 80 ; central-angle
+ 32  33  34 2 123.00 80 ; central-angle
+ 33  34  35 2 123.00 80 ; central-angle
+ 34  35  36 2 123.00 80 ; central-angle
+ 35  36  37 2 123.00 80 ; central-angle
+ 36  37  38 2 123.00 80 ; central-angle
+ 37  38  39 2 123.00 80 ; central-angle
+ 38  39  40 2 123.00 80 ; central-angle
+ 39  40  41 2 123.00 80 ; central-angle
+ 40  41  42 2 123.00 80 ; central-angle
+ 41  42  43 2 123.00 80 ; central-angle
+ 42  43  44 2 123.00 80 ; central-angle
+ 43  44  45 2 123.00 80 ; central-angle
+ 44  45  46 2 123.00 80 ; central-angle
+ 45  46  47 2 123.00 80 ; central-angle
+ 46  47  48 2 123.00 80 ; central-angle
+ 47  48  49 2 123.00 80 ; central-angle
+ 48  49  50 2 123.00 80 ; central-angle
+ 49  50  51 2 123.00 80 ; central-angle
+ 50  51  52 2 123.00 80 ; central-angle
+ 51  52  53 2 123.00 80 ; central-angle
+ 52  53  54 2 123.00 80 ; central-angle
+ 53  54  55 2 123.00 80 ; central-angle
+ 54  55  56 2 123.00 80 ; central-angle
+ 55  56  57 2 123.00 80 ; central-angle
+ 56  57  58 2 123.00 80 ; central-angle
+ 57  58  59 2 123.00 80 ; central-angle
+ 58  59  60 2 123.00 80 ; central-angle
+ 59  60  61 2 123.00 80 ; central-angle
+ 60  61  62 2 123.00 80 ; central-angle
+ 61  62  63 2 123.00 80 ; central-angle
+ 62  63  64 2 123.00 80 ; central-angle
+ 63  64  65 2 123.00 80 ; central-angle
+ 64  65  66 2 123.00 80 ; central-angle
+ 65  66  67 2 123.00 80 ; central-angle
+ 66  67  68 2 123.00 80 ; central-angle
+ 67  68  69 2 123.00 80 ; central-angle
+ 68  69  70 2 123.00 80 ; central-angle
+ 69  70  71 2 123.00 80 ; central-angle
+ 70  71  72 2 123.00 80 ; central-angle
+ 71  72  73 2 123.00 80 ; central-angle
+ 72  73  74 2 123.00 80 ; central-angle
+ 73  74  75 2 123.00 80 ; central-angle
+ 74  75  76 2 123.00 80 ; central-angle
+ 75  76  77 2 123.00 80 ; central-angle
+ 76  77  78 2 123.00 80 ; central-angle
+ 77  78  79 2 123.00 80 ; central-angle
+ 78  79  80 2 123.00 80 ; central-angle
+ 79  80  81 2 123.00 80 ; central-angle
+ 80  81  82 2 123.00 80 ; central-angle
+ 81  82  83 2 123.00 80 ; central-angle
+ 82  83  84 2 123.00 80 ; central-angle
+ 83  84  85 2 123.00 80 ; central-angle
+ 84  85  86 2 123.00 80 ; central-angle
+ 85  86  87 2 123.00 80 ; central-angle
+ 86  87  88 2 123.00 80 ; central-angle
+ 87  88  89 2 123.00 80 ; central-angle
+ 88  89  90 2 123.00 80 ; central-angle
+ 89  90  91 2 123.00 80 ; central-angle
+ 90  91  92 2 123.00 80 ; central-angle
+
+; BBB angles
+  1   5   9 10 127 20
+  5   9  13 10 127 20
+  9  13  17 10 127 20
+ 97 101 105 10 127 20
+101 105 109 10 127 20
+105 109 113 10 127 20
+
+; BBS angles regular martini
+  1   5   6 2 100 25
+  5   9  10 2 100 25
+  9  13  14 2 100 25
+ 13  17  18 2 100 25
+ 97 101 102 2 100 25
+101 105 106 2 100 25
+105 109 110 2 100 25
+109 113 114 2 100 25
+
+; First SBB regular martini
+  2   1   5 2 100 25
+ 98  97 101 2 100 25
+
+; Side chain angles
+  1   2   3 2 120.000 50.0
+  1   2   4 2 120.000 50.0
+  5   6   7 2 120.000 50.0
+  5   6   8 2 120.000 50.0
+  9  10  11 2 120.000 50.0
+  9  10  12 2 120.000 50.0
+ 13  14  15 2 120.000 50.0
+ 13  14  16 2 120.000 50.0
+ 17  18  19 2 120.000 50.0
+ 17  18  20 2 120.000 50.0
+ 97  98  99 2 120.000 50.0
+ 97  98 100 2 120.000 50.0
+101 102 103 2 120.000 50.0
+101 102 104 2 120.000 50.0
+105 106 107 2 120.000 50.0
+105 106 108 2 120.000 50.0
+109 110 111 2 120.000 50.0
+109 110 112 2 120.000 50.0
+113 114 115 2 120.000 50.0
+113 114 116 2 120.000 50.0
+
+[ exclusions ]
+  1   2   3   4 
+  2   3   4 
+  3   4 
+  5   6   7   8 
+  6   7   8 
+  7   8 
+  9  10  11  12 
+ 10  11  12 
+ 11  12 
+ 13  14  15  16 
+ 14  15  16 
+ 15  16 
+ 17  18  19  20 
+ 18  19  20 
+ 19  20 
+ 97  98  99 100 
+ 98  99 100 
+ 99 100 
+101 102 103 104 
+102 103 104 
+103 104 
+105 106 107 108 
+106 107 108 
+107 108 
+109 110 111 112 
+110 111 112 
+111 112 
+113 114 115 116 
+114 115 116 
+115 116
+117 118 119 120 121 122 123 124 125 126
+118 119 120 121 122 123 124 125 126
+119 120 121 122 123 124 125 126
+120 121 122 123 124 125 126
+121 122 123 124 125 126
+122 123 124 125 126
+123 124 125 126
+124 125 126
+125 126
+127 128 129 130 131 132 133 134 135 136
+128 129 130 131 132 133 134 135 136
+129 130 131 132 133 134 135 136
+130 131 132 133 134 135 136
+131 132 133 134 135 136
+132 133 134 135 136
+133 134 135 136
+134 135 136
+135 136
+

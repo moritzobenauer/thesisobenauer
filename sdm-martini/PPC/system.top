@@ -1,0 +1,10 @@
+#include "martini3_MLO.itp" 
+#include "PPC.itp"
+#ifdef POSRES 
+#include "posre.itp" 
+#endif 
+[ system ] 
+FHFHF in water
+[ molecules ] 
+PPC 200
+W               194729
