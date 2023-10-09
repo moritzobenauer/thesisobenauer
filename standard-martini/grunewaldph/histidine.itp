@@ -1,0 +1,76 @@
+;;;;;; WATER (WNA)
+
+[ moleculetype ]
+; molname  	nrexcl
+  WNA 	    	1
+
+[ atoms ]
+;id 	type 	resnr 	residu 	atom 	cgnr 	charge
+ 1 	WNT  	1 	WNA  	WN 	1        0.00
+ 2      DW      1       WNA     DN      1       -1.0
+
+#ifndef FLEXIBLE
+
+[ constraints ]
+1   2    1    0.166
+
+#else
+
+[ bonds ]
+1  2   1   0.166  10000
+
+#endif
+
+;;; Proton bead (POS)
+ 
+[ moleculetype ]
+; molname nrexcl
+  H+     1
+
+[ atoms ]
+1     POS    1     H+    POS     1     +1.0
+
+  ; Histidine by MLO July 2023
+
+  [ moleculetype ]
+HIS 1
+
+[ atoms ]
+; id    type    resnr   residu  atom    cgnr    charge
+1   P6          1 HIS BB  1   0.0
+2   TC4         1 HIS SC1 2   0.0 
+3   SN6d_6.0    1 HIS SC2 3  -1.0 
+4   TN5a        1 HIS SC3 4   0.0
+5   DB4         1 HIS D   5   0.00 
+6   DB3         1 HIS DP  6  +1.00 
+
+[ bonds ]
+; Side chain bonds
+1 2 1 0.336 7500
+3 6 1 0.000 4000
+
+
+#ifdef FLEXIBLE
+; Side chain bonds
+2 3 1 0.320 1000000
+2 4 1 0.300 1000000
+3 4 1 0.270 1000000
+#endif
+
+[ constraints ]
+#ifndef FLEXIBLE
+; Side chain bonds
+2 3 1 0.320
+2 4 1 0.300
+3 4 1 0.270
+#endif
+
+[ angles ]
+; Side chain angles
+1 2 3 2 120.000 50.0
+1 2 4 2 120.000 50.0
+
+[ exclusions ]
+1 2 3 4 
+2 3 4 
+3 4 
