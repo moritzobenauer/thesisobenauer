@@ -1,0 +1,11 @@
+#define pH<value>
+#include "../../force_fields/martini_v3.itp"
+#include "../../force_fields/histidine.itp"
+
+[ System ]
+HISTIDINE in water
+
+[ molecules ]
+HIS 100
+WNA 7618
+H+  7618
